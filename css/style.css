@@ -10,10 +10,19 @@ body {
   line-height: 1.6;
 }
 
+img {
+  width: 100%;
+}
+
 .showcase {
   background-color: #0e6cff;
   color: #fff;
   height: 600px;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container {

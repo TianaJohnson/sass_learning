@@ -14,10 +14,20 @@ body {
     font-family: $font-stack;
     line-height: 1.6;
 }
+img {
+    width: 100%;
+}
+
 .showcase {
     background-color: $primary-color;
     color: #fff;
     height: 600px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 .container {
     max-width:1100px;

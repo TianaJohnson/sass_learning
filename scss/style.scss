@@ -1,6 +1,5 @@
 @import 'config';
-@import 'utilities';
-@import 'buttons';
+
 
 
 * {
@@ -64,3 +63,7 @@ img {
     
     }
 }
+
+@import 'utilities';
+@import 'buttons';
+@import 'mobile';

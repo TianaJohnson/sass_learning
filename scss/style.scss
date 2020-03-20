@@ -23,7 +23,7 @@ img {
 
 .showcase {
     background-color: $primary-color;
-    color: #fff;
+    color: set-text-color($primary-color);
     height: 600px;
 
     nav {
